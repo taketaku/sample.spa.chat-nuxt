@@ -10,7 +10,6 @@ module.exports = {
     node: true
   },
   extends: [
-    'airbnb-base',
     'typescript',
     'plugin:vue/recommended',
   ],

@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@nuxtjs/axios": "^5.0.0",
+    "minimist": "^1.2.0",
     "nuxt": "^1.3.0",
     "nuxt-property-decorator": "^1.2.0",
     "vuex-class": "^0.3.0"
@@ -13,13 +14,12 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "lint": "eslint --fix --ext .js,.vue --ignore-path .gitignore ."
+    "lint": "eslint --fix --ext .js,.vue ."
   },
   "devDependencies": {
     "@types/node": "^9.4.6",
     "babel-eslint": "^8.2.6",
     "eslint": "^5.2.0",
-    "eslint-config-airbnb-base": "^13.0.0",
     "eslint-config-prettier": "^2.9.0",
     "eslint-config-typescript": "^1.1.0",
     "eslint-import-resolver-alias": "^1.1.0",
